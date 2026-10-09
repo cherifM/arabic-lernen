@@ -1,0 +1,9 @@
+{
+  "appId": "com.yallajamal.app",
+  "appName": "Yalla Jamal",
+  "webDir": "www",
+  "backgroundColor": "#E4F2FF",
+  "android": {
+    "adjustMarginsForEdgeToEdge": "auto"
+  }
+}
