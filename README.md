@@ -20,6 +20,22 @@ game and letter tracing.
 - Fonts (Cairo, Baloo 2, Nunito) bundled locally → works 100% offline
 - Phone + tablet layouts, portrait + landscape, hardware/gesture back button navigates in-app
 
+## Screenshots
+
+**Phone**
+
+| Start | Entdecken | Ballon-Quiz | Memory |
+|---|---|---|---|
+| <img src="screenshots/phone-home.png" width="230" alt="Startbildschirm"> | <img src="screenshots/phone-learn.png" width="230" alt="Karte ansehen"> | <img src="screenshots/phone-quiz.png" width="230" alt="Ballon-Quiz"> | <img src="screenshots/phone-memory.png" width="230" alt="Memory"> |
+
+| Sticker-Album | Für Eltern | Dark Mode |
+|---|---|---|
+| <img src="screenshots/phone-album.png" width="270" alt="Sticker-Album"> | <img src="screenshots/phone-parent.png" width="270" alt="Elternbereich"> | <img src="screenshots/dark-mode.png" width="270" alt="Dunkles Design"> |
+
+**Tablet**
+
+<img src="screenshots/tablet-home.png" width="49%" alt="Tablet: Startbildschirm"> <img src="screenshots/tablet-learn.png" width="49%" alt="Tablet: Karte ansehen">
+
 ## Project layout
 
 ```
@@ -30,6 +46,7 @@ game and letter tracing.
 ├── android/                # generated Capacitor Android project
 ├── capacitor.config.json   # appId com.yallajamal.app, appName "Yalla Jamal"
 ├── package.json            # capacitor deps + build scripts
+├── screenshots/            # README images (phone / tablet / dark mode)
 ├── Yalla Jamal(1).html     # original untouched webapp (reference only)
 └── tasks/todo.md           # plan + review of everything that was changed
 ```
